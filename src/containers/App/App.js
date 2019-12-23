@@ -18,13 +18,13 @@ function App() {
           <Navbar.Brand>Login Form Demo</Navbar.Brand>
           <Nav className="ml-auto">
             <LinkContainer to="/">
-              <Button variant="outline-primary">Home</Button>
+              <Button className="nav-btn" variant="outline-primary">Home</Button>
             </LinkContainer>
             <LinkContainer to="/login">
-              <Button variant="outline-primary">Login</Button>
+              <Button className="nav-btn" variant="outline-primary">Login</Button>
             </LinkContainer>
             <LinkContainer to="/signup">
-              <Button variant="outline-primary">Signup</Button>
+              <Button className="nav-btn" variant="outline-primary">Signup</Button>
             </LinkContainer>
           </Nav>
         </Navbar>
